@@ -42,6 +42,10 @@ body {
   display: flex;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* header */
 
 .header {
@@ -134,3 +138,31 @@ body {
 .social-icon-text {
   display: none;
 }
+
+/* Description Section */
+
+.description-section #heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.description-section hr {
+  border: 1px solid orange;
+  width: 20%;
+}
+
+.description-section img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.description-section p{
+    line-height: 1.5rem;
+}
+
+/* footer */
