@@ -161,8 +161,41 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.description-section p{
-    line-height: 1.5rem;
+.description-section p {
+  line-height: 1.5rem;
+  padding-bottom: 40px;
 }
 
 /* footer */
+footer {
+  background-color: #8005e6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  text-align: center;
+}
+
+footer .row.flex {
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+footer ul.flex {
+  padding-top: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer ul.flex li {
+  padding-right: 15px;
+}
+footer p {
+  padding-top: 5px;
+}
