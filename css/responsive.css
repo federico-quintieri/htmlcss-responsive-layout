@@ -27,9 +27,25 @@
   .recipe-section .container #hide {
     display: inline-block;
   }
+  .recipe-section .container h2 {
+    font-size: 2rem;
+  }
+  .social-icons li {
+    padding: 8px 50px 8px 50px;
+  }
+  #banner {
+    display: block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 }
 
 @media screen and (min-width: 992px) {
+  .recipe-section .container h2 {
+    font-size: 2.5rem;
+  }
+  .recipe-section .container #hide {
+    display: inline-block;
+  }
   .recipe-section .row.flex {
     flex-direction: row;
   }
@@ -41,5 +57,16 @@
   .recipe-section .col-2 {
     width: 30%;
   }
-
+  #banner {
+    display: block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .social-icon-text {
+    display: inline-block;
+    font-weight: bold;
+  }
+  .social-icons li {
+    padding: 8px 30px 8px 30px;
+    border-radius: 40px;
+  }
 }

@@ -99,3 +99,38 @@ body {
 .recipe-section img {
   display: block;
 }
+
+/* Lista icone */
+
+.social-icons {
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social-icons li {
+  background-color: white;
+  padding: 8px 11px 8px 11px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: aqua;
+}
+.fa-instagram {
+  color: violet;
+}
+.fa-pinterest,
+.fa-youtube {
+  color: red;
+}
+
+#banner {
+  display: none;
+}
+.social-icon-text {
+  display: none;
+}
