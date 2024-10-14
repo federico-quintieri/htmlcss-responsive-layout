@@ -65,34 +65,37 @@ body {
   background-color: white;
 }
 
-.recipe-section .row.flex h2 {
+.recipe-section .container h2 {
   color: var(--color-violet);
+  padding-bottom: 20px;
 }
 
 .recipe-section .container h2 > span {
   display: none;
 }
 
-.recipe-section iframe {
-  width: 100%;
-  height: 210px;
+.recipe-section .container span {
+  display: inline-block;
+  padding-top: 20px;
 }
+
 .recipe-section .card span {
   font-weight: bold;
 }
 .recipe-section .card-info {
   padding: 20px;
 }
+
 .recipe-section li {
   padding: 7px 0 7px 0;
 }
+
 .recipe-section h3 {
   padding-bottom: 20px;
 }
-.recipe-section h2 {
-  padding-bottom: 15px;
-  padding-top: 5px;
+.recipe-section .row.flex {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.recipe-section span {
-  padding-top: 10px;
+.recipe-section img {
+  display: block;
 }

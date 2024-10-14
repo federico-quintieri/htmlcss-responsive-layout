@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .header {
     text-align: left;
   }
@@ -7,28 +7,25 @@
     padding-left: 10px;
   }
 
-  .recipe-section .container h2 > span {
-    display: inline-block;
-  }
-
-  .recipe-section iframe {
-    width: 100%;
-    height: 390px;
-  }
-
   .recipe-section .card-info ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
   }
   .recipe-section .card-info li {
-    width: calc((100% - 40px) / 3);
+    width: calc((100% - 20px) / 3);
   }
   .recipe-section .card-info h3 {
     padding-bottom: 30px;
   }
-  .recipe-section .row.flex > span {
-    padding-top: 35px;
+  .recipe-section .container span {
+    display: inline-block;
+  }
+  .recipe-section .container #pretext {
+    padding-top: 50px;
+  }
+  .recipe-section .container #hide {
+    display: inline-block;
   }
 }
 
@@ -36,4 +33,13 @@
   .recipe-section .row.flex {
     flex-direction: row;
   }
+
+  .recipe-section .col-1 {
+    width: 70%;
+  }
+
+  .recipe-section .col-2 {
+    width: 30%;
+  }
+
 }
