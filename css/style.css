@@ -69,13 +69,13 @@ body {
   color: var(--color-violet);
 }
 
-.recipe-section .row.flex h2 > span {
+.recipe-section .container h2 > span {
   display: none;
 }
 
 .recipe-section iframe {
   width: 100%;
-  height: 25vh;
+  height: 210px;
 }
 .recipe-section .card span {
   font-weight: bold;

@@ -6,8 +6,14 @@
   .header h1 {
     padding-left: 10px;
   }
-  .recipe-section .row.flex h2 > span {
+
+  .recipe-section .container h2 > span {
     display: inline-block;
+  }
+
+  .recipe-section iframe {
+    width: 100%;
+    height: 390px;
   }
 
   .recipe-section .card-info ul {
@@ -27,4 +33,7 @@
 }
 
 @media screen and (min-width: 992px) {
+  .recipe-section .row.flex {
+    flex-direction: row;
+  }
 }
