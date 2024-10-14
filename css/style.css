@@ -1,8 +1,15 @@
+/* Variabili globali */
+
+:root {
+  --header-logo-c: rgb(253, 207, 0);
+}
+
 /* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
 
 img {
@@ -17,3 +24,17 @@ a {
   text-decoration: none;
 }
 
+/* header */
+
+.header {
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  /* debug */
+  border: 1px solid black;
+}
+
+.header h1 {
+  font-family: "Nerko One", cursive;
+  color: var(--header-logo-c);
+}
