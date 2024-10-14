@@ -2,6 +2,8 @@
 
 :root {
   --header-logo-c: rgb(253, 207, 0);
+  --background-color: #ececec;
+  --color-violet: #8005e6;
 }
 
 /* Reset */
@@ -24,17 +26,73 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: var(--background-color);
+}
+
+/* Utility classes */
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
 /* header */
 
 .header {
   height: 70px;
   text-align: center;
   line-height: 70px;
-  /* debug */
-  border: 1px solid black;
+  background-color: white;
 }
 
 .header h1 {
   font-family: "Nerko One", cursive;
   color: var(--header-logo-c);
+}
+
+/* Recipe Section */
+
+.recipe-section .row.flex {
+  flex-direction: column;
+}
+.recipe-section .col {
+  background-color: white;
+}
+
+.recipe-section .row.flex h2 {
+  color: var(--color-violet);
+}
+
+.recipe-section .row.flex h2 > span {
+  display: none;
+}
+
+.recipe-section iframe {
+  width: 100%;
+  height: 25vh;
+}
+.recipe-section .card span {
+  font-weight: bold;
+}
+.recipe-section .card-info {
+  padding: 20px;
+}
+.recipe-section li {
+  padding: 7px 0 7px 0;
+}
+.recipe-section h3 {
+  padding-bottom: 20px;
+}
+.recipe-section h2 {
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+.recipe-section span {
+  padding-top: 10px;
 }

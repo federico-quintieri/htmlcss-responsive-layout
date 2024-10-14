@@ -1,5 +1,30 @@
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .header {
     text-align: left;
   }
+
+  .header h1 {
+    padding-left: 10px;
+  }
+  .recipe-section .row.flex h2 > span {
+    display: inline-block;
+  }
+
+  .recipe-section .card-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .recipe-section .card-info li {
+    width: calc((100% - 40px) / 3);
+  }
+  .recipe-section .card-info h3 {
+    padding-bottom: 30px;
+  }
+  .recipe-section .row.flex > span {
+    padding-top: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
 }
